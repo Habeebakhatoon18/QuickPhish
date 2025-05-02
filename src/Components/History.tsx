@@ -75,7 +75,7 @@ const Comp1 = () => {
           </GlassMorphism>
         ) : (
           recentScans.map((scan, index) => (
-            <motion.div
+            <motion.div 
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
